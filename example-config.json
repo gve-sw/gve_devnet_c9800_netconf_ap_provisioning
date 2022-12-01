@@ -1,0 +1,26 @@
+{
+    "wireless-controllers": [
+        {
+            "name": "",
+            "port": 830
+        }
+    ],
+    "ap-tag-map": {
+        "<AP ETHERNET MAC>": {
+            "site-tag": "",
+            "policy-tag": "",
+            "rf-tag": ""
+        },
+        "<AP ETHERNET MAC>": {
+            "site-tag": "",
+            "policy-tag": "",
+            "rf-tag": ""
+        }
+    },
+    "mqtt": {
+        "broker": "",
+        "port": 1883,
+        "client-id": "go_mqtt_client",
+        "topic": "wireless/ap"
+    }
+}
